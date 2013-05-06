@@ -1,0 +1,24 @@
+{
+  "name": "manfred",
+  "version": "0.0.1",
+  "homepage": "http://github.com/p0wl/manfred",
+  "description": "Manfred is a web scraping tool that checks a given page for new entries (using css selectors) and saves them to a database.",
+  "author": {
+    "name": "Paul Mölders",
+    "email": "paul.moelders@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/p0wl/manfred.git"
+  },
+  "bugs": {
+    "url": "http://github.com/p0wl/manfred/issues"
+  },
+  "dependencies": {
+    "request": "latest",
+    "cheerio": "latest",
+    "moment": "latest",
+    "lodash": "latest",
+    "forever-monitor": "latest"
+  }
+}

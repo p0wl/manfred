@@ -1,0 +1,143 @@
+{
+    "raw": [
+        {
+            "timestamp": 1367870638,
+            "artist": "Tame Impala",
+            "track": "Elephant"
+        },
+        {
+            "timestamp": 1367870846,
+            "artist": "Macklemore feat. Ziggy Stardust",
+            "track": "And we danced"
+        },
+        {
+            "timestamp": 1367871180,
+            "artist": "Editors",
+            "track": "A ton of love"
+        },
+        {
+            "timestamp": 1367871412,
+            "artist": "AlunaGeorge",
+            "track": "Attracting Flies"
+        },
+        {
+            "timestamp": 1367871739,
+            "artist": "DJ Koze",
+            "track": "Nices W�lkchen"
+        },
+        {
+            "timestamp": 1367872056,
+            "artist": "Santigold",
+            "track": "L.E.S. Artistes"
+        },
+        {
+            "timestamp": 1367872328,
+            "artist": "The Strokes",
+            "track": "All The Time"
+        },
+        {
+            "timestamp": 1367872477,
+            "artist": "Kendrick Lamar",
+            "track": "Swimming Pools (Drank)"
+        },
+        {
+            "timestamp": 1367873238,
+            "artist": "Daft Punk feat. Pharrell",
+            "track": "Get Lucky"
+        },
+        {
+            "timestamp": 1367873667,
+            "artist": "Metric",
+            "track": "Youth without youth"
+        },
+        {
+            "timestamp": 1367873847,
+            "artist": "Dizzee Rascal feat. Armand Van Helden",
+            "track": "Bonkers"
+        },
+        {
+            "timestamp": 1367874283,
+            "artist": "M83",
+            "track": "Reunion"
+        },
+        {
+            "timestamp": 1367875025,
+            "artist": "Fayzen",
+            "track": "Rosarot"
+        },
+        {
+            "timestamp": 1367875621,
+            "artist": "Flume",
+            "track": "Holdin' on"
+        },
+        {
+            "timestamp": 1367875776,
+            "artist": "Haim",
+            "track": "Forever"
+        },
+        {
+            "timestamp": 1367876351,
+            "artist": "Skip the Use",
+            "track": "Ghost"
+        },
+        {
+            "timestamp": 1367876882,
+            "artist": "Seeed",
+            "track": "Augenbling"
+        },
+        {
+            "timestamp": 1367877210,
+            "artist": "Beach House",
+            "track": "Myth"
+        },
+        {
+            "timestamp": 1367877446,
+            "artist": "Hot Chip",
+            "track": "Don't deny your heart"
+        }
+    ],
+    "stats": {
+        "byArtist": {
+            "Tame Impala": 1,
+            "Macklemore feat. Ziggy Stardust": 1,
+            "Editors": 1,
+            "AlunaGeorge": 1,
+            "DJ Koze": 1,
+            "Santigold": 1,
+            "The Strokes": 1,
+            "Kendrick Lamar": 1,
+            "Daft Punk feat. Pharrell": 1,
+            "Metric": 1,
+            "Dizzee Rascal feat. Armand Van Helden": 1,
+            "M83": 1,
+            "Fayzen": 1,
+            "Flume": 1,
+            "Haim": 1,
+            "Skip the Use": 1,
+            "Seeed": 1,
+            "Beach House": 1,
+            "Hot Chip": 1
+        },
+        "byTrack": {
+            "Tame Impala|Elephant": 1,
+            "Macklemore feat. Ziggy Stardust|And we danced": 1,
+            "Editors|A ton of love": 1,
+            "AlunaGeorge|Attracting Flies": 1,
+            "DJ Koze|Nices W�lkchen": 1,
+            "Santigold|L.E.S. Artistes": 1,
+            "The Strokes|All The Time": 1,
+            "Kendrick Lamar|Swimming Pools (Drank)": 1,
+            "Daft Punk feat. Pharrell|Get Lucky": 1,
+            "Metric|Youth without youth": 1,
+            "Dizzee Rascal feat. Armand Van Helden|Bonkers": 1,
+            "M83|Reunion": 1,
+            "Fayzen|Rosarot": 1,
+            "Flume|Holdin' on": 1,
+            "Haim|Forever": 1,
+            "Skip the Use|Ghost": 1,
+            "Seeed|Augenbling": 1,
+            "Beach House|Myth": 1,
+            "Hot Chip|Don't deny your heart": 1
+        }
+    }
+}
