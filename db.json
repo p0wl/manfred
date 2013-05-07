@@ -94,6 +94,66 @@
             "timestamp": 1367877446,
             "artist": "Hot Chip",
             "track": "Don't deny your heart"
+        },
+        {
+            "timestamp": 1367956671,
+            "artist": "Robots don't sleep",
+            "track": "Don't wake me"
+        },
+        {
+            "timestamp": 1367957077,
+            "artist": "Major Lazer",
+            "track": "Watch out for this (Bumaye)"
+        },
+        {
+            "timestamp": 1367957343,
+            "artist": "Foals",
+            "track": "My Number"
+        },
+        {
+            "timestamp": 1367957739,
+            "artist": "The Child of Lov",
+            "track": "Fly"
+        },
+        {
+            "timestamp": 1367957950,
+            "artist": "Muse",
+            "track": "Uprising"
+        },
+        {
+            "timestamp": 1367958309,
+            "artist": "Two Door Cinema Club",
+            "track": "Handshake"
+        },
+        {
+            "timestamp": 1367958721,
+            "artist": "Daft Punk feat. Pharrell",
+            "track": "Get Lucky"
+        },
+        {
+            "timestamp": 1367958961,
+            "artist": "White Lies",
+            "track": "To Lose My Life"
+        },
+        {
+            "timestamp": 1367959370,
+            "artist": "Born Ruffians",
+            "track": "Needle"
+        },
+        {
+            "timestamp": 1367959582,
+            "artist": "Crystal Fighters",
+            "track": "You & I"
+        },
+        {
+            "timestamp": 1367959907,
+            "artist": "K�ptn Peng & die Tentakel von Delphi",
+            "track": "Platz da"
+        },
+        {
+            "timestamp": 1367960184,
+            "artist": "Tegan & Sara",
+            "track": "Closer"
         }
     ],
     "stats": {
@@ -106,7 +166,7 @@
             "Santigold": 1,
             "The Strokes": 1,
             "Kendrick Lamar": 1,
-            "Daft Punk feat. Pharrell": 1,
+            "Daft Punk feat. Pharrell": 2,
             "Metric": 1,
             "Dizzee Rascal feat. Armand Van Helden": 1,
             "M83": 1,
@@ -116,7 +176,18 @@
             "Skip the Use": 1,
             "Seeed": 1,
             "Beach House": 1,
-            "Hot Chip": 1
+            "Hot Chip": 1,
+            "Robots don't sleep": 1,
+            "Major Lazer": 1,
+            "Foals": 1,
+            "The Child of Lov": 1,
+            "Muse": 1,
+            "Two Door Cinema Club": 1,
+            "White Lies": 1,
+            "Born Ruffians": 1,
+            "Crystal Fighters": 1,
+            "K�ptn Peng & die Tentakel von Delphi": 1,
+            "Tegan & Sara": 1
         },
         "byTrack": {
             "Tame Impala|Elephant": 1,
@@ -127,7 +198,7 @@
             "Santigold|L.E.S. Artistes": 1,
             "The Strokes|All The Time": 1,
             "Kendrick Lamar|Swimming Pools (Drank)": 1,
-            "Daft Punk feat. Pharrell|Get Lucky": 1,
+            "Daft Punk feat. Pharrell|Get Lucky": 2,
             "Metric|Youth without youth": 1,
             "Dizzee Rascal feat. Armand Van Helden|Bonkers": 1,
             "M83|Reunion": 1,
@@ -137,7 +208,18 @@
             "Skip the Use|Ghost": 1,
             "Seeed|Augenbling": 1,
             "Beach House|Myth": 1,
-            "Hot Chip|Don't deny your heart": 1
+            "Hot Chip|Don't deny your heart": 1,
+            "Robots don't sleep|Don't wake me": 1,
+            "Major Lazer|Watch out for this (Bumaye)": 1,
+            "Foals|My Number": 1,
+            "The Child of Lov|Fly": 1,
+            "Muse|Uprising": 1,
+            "Two Door Cinema Club|Handshake": 1,
+            "White Lies|To Lose My Life": 1,
+            "Born Ruffians|Needle": 1,
+            "Crystal Fighters|You & I": 1,
+            "K�ptn Peng & die Tentakel von Delphi|Platz da": 1,
+            "Tegan & Sara|Closer": 1
         }
     }
 }
