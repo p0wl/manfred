@@ -26,7 +26,7 @@
 	app.loadDB = function (filename) {
 		fs.readFile(filename, function (err, data) {
 		if (err) console.log(err);
-		
+
 		try {
 			db = JSON.parse(data);
 		} catch (e) {
