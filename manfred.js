@@ -15,6 +15,8 @@
 	var _       = require('lodash');
 	var fs      = require('fs');
 	var http	= require('http');
+	var express = require('express');
+	var server = express();
 
 	app.config = {};
 	app.config.fileDB = 'db.json';
@@ -109,15 +111,23 @@
 		console.log("Fetched!");
 	};
 
-	http.createServer(function (req, res) {
-		res.writeHead(200, {'Content-Type': 'text/plain'});
-		res.end(JSON.stringify(db, null, 4));
-	}).listen(1337, '127.0.0.1');
-	console.log('Server running at http://127.0.0.1:1337/');
+	app.start = function () {
 
-	// Run every 10 minutes
-	app.main();
-	setInterval(function () { app.main(); }, 10 * 60 * 1000);
+		server.get('/db.json', function (req, res) {
+			res.json(db);
+		})
+
+		server.use(express.static(__dirname + '/public'));
+		server.listen(process.env.PORT || 9000);
+		
+		console.log('Server running at http://127.0.0.1:9000/');
+
+		// Run every 10 minutes
+		app.main();
+		setInterval(function () { app.main(); }, 10 * 60 * 1000);
+	}
+
+	app.start();
 
 
 })();

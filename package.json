@@ -18,6 +18,7 @@
     "request": "latest",
     "cheerio": "latest",
     "moment": "latest",
-    "lodash": "latest"
+    "lodash": "latest",
+    "express": "latest"
   }
 }
