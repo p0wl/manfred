@@ -92,17 +92,24 @@
 		app.loadDB(app.config.fileDB);
 		app.fetch(function (data) {
 			var union = _.union(data, db.raw);
-			union =  _.unique(union, function (x) { return x.timestamp; });
-			db.raw = _.sortBy(union, function (x) { return x.timestamp; });
+
+			if (union) {
+
+				union =  _.unique(union, function (x) { return x?x.timestamp:0; });
+				db.raw = _.sortBy(union, function (x) { return x?x.timestamp:0; });
 
 
-			db.stats = {};
-			db.stats.byArtist = app.countByArtist();
-			db.stats.byTrack  = app.countByTrack();
+				db.stats = {};
+				db.stats.byArtist = app.countByArtist();
+				db.stats.byTrack  = app.countByTrack();
 
-			console.log('Saving ' + _(db.raw).size() + ' Tracks');
+				console.log('Saving ' + _(db.raw).size() + ' Tracks');
 
-			app.writeDB(app.config.fileDB, db, app.finish);
+				app.writeDB(app.config.fileDB, db, app.finish);
+			} else {
+				console.log('Could not fetch data. Debug:');
+				console.log(data);
+			}
 		});
 
 	};
